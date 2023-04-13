@@ -1,0 +1,12 @@
+<Context>
+	<Resource
+		name="jdbc/MySQLD"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="root"
+		password="1324"
+		driverClassName="com.mysql.jdbc.Driver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url="jdbc:mysql://localhost:3306/comment?serverTimezone=UTC"
+		maxActive="500"/>
+</Context>
